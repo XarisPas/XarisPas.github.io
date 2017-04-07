@@ -1,0 +1,117 @@
+/*general*/
+img {
+}
+.panel-title {
+    margin:10px;
+}
+
+.list-group {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/*header*/
+header.row {
+    height: 100px;
+}
+header .navbar-brand {
+    background-image: url(Zouraris.png);
+    height: 100px;
+    width: 100px;
+}
+.navbar {
+    border-radius: 0px;
+}
+.nav.navbar-nav {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.nav.navbar-nav.navbar-right {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/*content*/
+.content{
+    margin: 40px 0;
+}
+.content h2 {
+    font-size: 20px;
+}
+.content h3 {
+    font-size: 18px;
+}
+.content p {
+    margin-bottom: 20px;
+}
+
+/*aside*/
+aside h3 {
+    text-align: center;
+}
+/*footer*/
+
+footer.row.navbar-inverse.bg-inverse  {
+    color: #E1DDDD;
+    background-color: #2B2929;
+    border-radius: 0px;
+    padding: 20px 0;
+}
+
+footer ul{
+    padding:0;
+    text-align: center
+}
+
+footer ul li {
+    list-style: none;
+}
+/*index*/
+#profil{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.social {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.social>h4 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+
+
+hr{ 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+.tab-pane li{
+    
+    margin-bottom: 15px;
+}
+
+
+
+
+
+@media(max-width: @screen-sm-max) {
+    .social.row .col-md-4 {
+        margin-bottom: 15px;
+    }
+    aside.col-md-3 {
+        margin-top: 50px;
+    }
+
+} 
+
+
