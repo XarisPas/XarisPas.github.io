@@ -1,6 +1,7 @@
 /*general*/
 body {
     background-color: #2B2929;
+    background-image: linear-gradient(to top,#3c3c3c 0,#222 100%);
 }
 .content {
     background-color: white;
