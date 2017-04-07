@@ -1,4 +1,10 @@
 /*general*/
+body {
+    background-color: #2B2929;
+}
+.content {
+    background-color: white;
+}
 img {
 }
 .panel-title {
@@ -21,6 +27,7 @@ header .navbar-brand {
 }
 .navbar {
     border-radius: 0px;
+    margin-bottom: 0;
 }
 .nav.navbar-nav {
     margin-left: 20px;
@@ -33,7 +40,7 @@ header .navbar-brand {
 
 /*content*/
 .content{
-    margin: 40px 0;
+    padding: 40px 0;
 }
 .content h2 {
     font-size: 20px;
