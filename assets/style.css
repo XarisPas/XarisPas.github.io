@@ -1,12 +1,9 @@
 /*general*/
 body {
-    background-color: #2B2929;
     background-image: linear-gradient(to top,#3c3c3c 0,#222 100%);
 }
 .content {
     background-color: white;
-}
-img {
 }
 .panel-title {
     margin:10px;
@@ -38,7 +35,6 @@ header .navbar-brand {
     margin-left: 0px;
     margin-top: 0px;
 }
-
 /*content*/
 .content{
     padding: 40px 0;
@@ -52,7 +48,6 @@ header .navbar-brand {
 .content p {
     margin-bottom: 20px;
 }
-
 /*aside*/
 aside h3 {
     text-align: center;
@@ -90,27 +85,10 @@ footer ul li {
     padding-bottom: 10px;
 }
 
-
-
-hr{ 
-    display: block;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    border-style: inset;
-    border-width: 1px;
-}
-
-
 .tab-pane li{
     
     margin-bottom: 15px;
 }
-
-
-
-
 
 @media(max-width: @screen-sm-max) {
     .social.row .col-md-4 {
