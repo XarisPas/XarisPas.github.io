@@ -94,10 +94,9 @@ footer ul li {
     .social.row .col-md-4 {
         margin-bottom: 15px;
     }
-    aside.col-md-3 {
-        margin-top: 50px;
+    .content {
+        margin-bottom: 50px;
     }
-
 } 
 
 
