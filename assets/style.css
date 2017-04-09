@@ -90,7 +90,7 @@ footer ul li {
     margin-bottom: 15px;
 }
 
-@media(max-width: @screen-sm-max) {
+@media(max-width: 480px @screen-sm-max ) {
     .social.row .col-md-4 {
         margin-bottom: 15px;
     }
@@ -98,5 +98,10 @@ footer ul li {
         margin-bottom: 50px;
     }
 } 
+
+
+
+
+
 
 
