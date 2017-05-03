@@ -12,5 +12,9 @@
 }
 .publicationArticle {
   background-color: #f5f5f5;
-  border-color: #ddd;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
