@@ -7,7 +7,7 @@
     var expandButtonDescription = expandButton.attr('data-description')+'<span class="upIcon"></span>';
     expandButton.attr('href', 'javascript:');
     $('.expand a#one').bind('click', function(e) {
-      var continueArticle = $('.continueArticleOne');
+      var continueArticle = $('.continueArticle');
       if (continueArticle.css('display')=='none') {
         continueArticle.show();
         expandButton.html(expandButtonDescription);
