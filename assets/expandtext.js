@@ -18,7 +18,7 @@
     });
   }
     
-    var expandButtonss = $('.tab-content .expand a#two');
+    /*var expandButtonss = $('.tab-content .expand a#two');
   if (expandButtonss.length>0) {
     var expandButtons = expandButtonss.eq(0);
     var expandButtonTexts = expandButtons.text()+'<span class="downIcon"></span>';
@@ -34,5 +34,5 @@
         expandButtons.html(expandButtonTexts);
       }
     });
-  }  
+  }  */
 });
