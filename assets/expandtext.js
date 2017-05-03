@@ -1,6 +1,6 @@
   $(document).ready(function() {
     /* expand text */
-  var expandButtons = $('.content .expand a');
+  var expandButtons = $('.tab-content .expand a');
   if (expandButtons.length>0) {
     var expandButton = expandButtons.eq(0);
     var expandButtonText = expandButton.text()+'<span class="downIcon"></span>';
