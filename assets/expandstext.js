@@ -1,7 +1,7 @@
 
   $(document).ready(function() {
     /* expand text */
-  var expandButtons = $('.tab-content .expands a');
+  var expandButtons = $('.publicationArticles .expands a');
   if (expandButtons.length>0) {
     var expandButton = expandButtons.eq(0);
     var expandButtonText = expandButton.text()+'<span class="downIcon"></span>';
