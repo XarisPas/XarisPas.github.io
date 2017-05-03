@@ -10,3 +10,7 @@
 .continueArticle {
     display: none;
 }
+.publicationArticle {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
