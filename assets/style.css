@@ -94,6 +94,27 @@ footer ul li {
     margin-bottom: 15px;
 }
 
+.expand, .expands, .expandss {
+    margin: 30px 0px;
+    margin-right: 0;
+    padding: 0;
+    padding-left: 0;
+    padding-top: 30px;
+    border-top: 1px solid #BFBFBF;
+}
+.continueArticle, .continueArticles, .continueArticless {
+    display: none;
+}
+.publicationArticle, .publicationArticles, .publicationArticless {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+
 @media (max-width: 768px) {
     .social.row .col-md-4 {
         margin-bottom: 15px;
