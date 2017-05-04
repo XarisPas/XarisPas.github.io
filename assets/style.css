@@ -105,6 +105,10 @@ footer ul li {
 .continueArticle, .continueArticles, .continueArticless {
     display: none;
 }
+
+.continueArticles p img {
+    margin:auto;
+}
 .publicationArticle, .publicationArticles, .publicationArticless {
   background-color: #f5f5f5;
   padding: 15px;
